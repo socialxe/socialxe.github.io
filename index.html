@@ -1,163 +1,109 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-	<meta charset="utf-8">
-	<title>SocialXE</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/lighter.css" rel="stylesheet">
-  </head>
-  <body>
+---
+layout: index
+---
 
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand nav-link" href="#top">
-				<img src="img/logo.png" alt="SocialXE">
-			</a>
-		</div> <!-- /.navbar-header -->
+<div id="top" class="jumbotron">
+  <div class="container">
+	<div id="banner">
+		<span></span>
+		<h1>SocialXE</h1>
+		<h2>XpressEngine으로 제작된 사이트를 소셜화하는 가장 좋은 방법!</h2>
+	</div>
+	<!--p><a class="btn btn-primary btn-lg" href="https://github.com/socialxe">GitHub <span class="glyphicon glyphicon-circle-arrow-right"></span></a></p-->
+  </div> <!-- /.container -->
+</div> <!-- /.jumbotron -->
 
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="#features" class="nav-link">Features</a></li>
-			<li><a href="#screenshot-head" class="nav-link">Screenshots</a></li>
-			<li><a href="#about" class="nav-link">About me</a></li>
-			<li><a href="https://github.com/socialxe">View on GitHub</a></li>
-		  </ul>
-		</div> <!-- /.navbar-collapse -->
-	  </div> <!-- /.container -->
-	</nav> <!-- /.navbar -->
+<div class="container">
+  <h3 id="features" class="subhead">Features</h3>
+  <div class="row benefits">
+	<div class="col-md-4 col-sm-6 benefit">
+	  <div class="benefit-ball">
+		<span class="glyphicon glyphicon-pencil"></span>
+	  </div>
+	  <h3>소셜 댓글</h3>
+	  <p class="feature-para">개별 사이트에 회원 가입할 필요 없이 자신의 소셜 네트워크 로그인으로 사용할 수 있는 소셜 댓글 기능을 손쉽게 사이트에 적용할 수 있습니다. 작성한 댓글은 소셜 네트워크에 동시에 공유됩니다. 사용자는 소셜 네트워크 친구들과 자신의 생각을 공유하고 토론을 나눌 수 있습니다. 사이트 운영자는 자신의 사이트를 소셜 네트워크를 통해 알릴 수 있습니다.</p>
+	</div> <!-- /.benefit -->
 
-	<div id="top" class="jumbotron">
-	  <div class="container">
-		<div id="banner">
-			<span></span>
-			<h1>SocialXE</h1>
-			<h2>XpressEngine으로 제작된 사이트를 소셜화하는 가장 좋은 방법!</h2>
-		</div>
-		<!--p><a class="btn btn-primary btn-lg" href="https://github.com/socialxe">GitHub <span class="glyphicon glyphicon-circle-arrow-right"></span></a></p-->
-	  </div> <!-- /.container -->
-	</div> <!-- /.jumbotron -->
+	<div class="col-md-4 col-sm-6 benefit">
+	  <div class="benefit-ball">
+		<span class="glyphicon glyphicon-cloud"></span>
+	  </div>
+	  <h3>소셜 로그인</h3>
+	  <p class="feature-para">별도의 회원가입 절차 없이 소셜 사이트 중 하나의 아이디를 이용하여 로그인할 수 있습니다. 소셜 아이디로 로그인 시 아이디와 메일 등의 기본 정보는 이 사이트에 저장 되지만 비밀번호와 인증을 위한 처리는 해당 소셜 사이트에서 이루어집니다.</p>
+	</div> <!-- /.benefit -->
 
-	<div class="container">
-	  <h3 id="features" class="subhead">Features</h3>
-	  <div class="row benefits">
-		<div class="col-md-4 col-sm-6 benefit">
-		  <div class="benefit-ball">
-			<span class="glyphicon glyphicon-pencil"></span>
-		  </div>
-		  <h3>소셜 댓글</h3>
-		  <p class="feature-para">개별 사이트에 회원 가입할 필요 없이 자신의 소셜 네트워크 로그인으로 사용할 수 있는 소셜 댓글 기능을 손쉽게 사이트에 적용할 수 있습니다. 작성한 댓글은 소셜 네트워크에 동시에 공유됩니다. 사용자는 소셜 네트워크 친구들과 자신의 생각을 공유하고 토론을 나눌 수 있습니다. 사이트 운영자는 자신의 사이트를 소셜 네트워크를 통해 알릴 수 있습니다.</p>
-		</div> <!-- /.benefit -->
+	<div class="col-md-4 col-sm-6 benefit">
+	  <div class="benefit-ball">
+		<span class="glyphicon glyphicon-globe"></span>
+	  </div>
+	  <h3>소셜 통합</h3>
+	  <p class="feature-para">XE 전반에 걸쳐 소셜 정보와 통합하고 연동할 수 있는 기능입니다. 회원들은 자신의 소셜 정보를 회원 정보에 통합할 수 있으며, 글/댓글에 대해 자동으로 소셜 사이트로 전송할 수 있습니다. 물론 전송할지 안 할지를 선택할 수도 있습니다.</p>
+	</div> <!-- /.benefit -->
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
 
-		<div class="col-md-4 col-sm-6 benefit">
-		  <div class="benefit-ball">
-			<span class="glyphicon glyphicon-cloud"></span>
-		  </div>
-		  <h3>소셜 로그인</h3>
-		  <p class="feature-para">별도의 회원가입 절차 없이 소셜 사이트 중 하나의 아이디를 이용하여 로그인할 수 있습니다. 소셜 아이디로 로그인 시 아이디와 메일 등의 기본 정보는 이 사이트에 저장 되지만 비밀번호와 인증을 위한 처리는 해당 소셜 사이트에서 이루어집니다.</p>
-		</div> <!-- /.benefit -->
+<div class="container-alternate">
+  <div class="container">
+	<h3 id="screenshot-head" class="subhead">Screenshots</h3>
+	<div class="row">
+	  <div class="col-md-12">
+		<div id="tour" class="carousel slide">
+		  <ol class="carousel-indicators">
+			<li data-target="#tour" data-slide-to="0" class="active"></li>
+			<li data-target="#tour" data-slide-to="1"></li>
+			<li data-target="#tour" data-slide-to="2"></li>
+		  </ol>
 
-		<div class="col-md-4 col-sm-6 benefit">
-		  <div class="benefit-ball">
-			<span class="glyphicon glyphicon-globe"></span>
-		  </div>
-		  <h3>소셜 통합</h3>
-		  <p class="feature-para">XE 전반에 걸쳐 소셜 정보와 통합하고 연동할 수 있는 기능입니다. 회원들은 자신의 소셜 정보를 회원 정보에 통합할 수 있으며, 글/댓글에 대해 자동으로 소셜 사이트로 전송할 수 있습니다. 물론 전송할지 안 할지를 선택할 수도 있습니다.</p>
-		</div> <!-- /.benefit -->
-	  </div> <!-- /.row -->
-	</div> <!-- /.container -->
-
-	<div class="container-alternate">
-	  <div class="container">
-		<h3 id="screenshot-head" class="subhead">Screenshots</h3>
-		<div class="row">
-		  <div class="col-md-12">
-			<div id="tour" class="carousel slide">
-			  <ol class="carousel-indicators">
-				<li data-target="#tour" data-slide-to="0" class="active"></li>
-				<li data-target="#tour" data-slide-to="1"></li>
-				<li data-target="#tour" data-slide-to="2"></li>
-			  </ol>
-
-			  <div class="carousel-inner">
-				<div class="item active">
-				  <img src="img/01.jpg">
-				  <div class="carousel-caption">
-					소셜 댓글
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="img/02.jpg">
-				  <div class="carousel-caption">
-					소셜 로그인
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="img/03.jpg">
-				  <div class="carousel-caption">
-					소셜 통합
-				  </div>
-				</div>
+		  <div class="carousel-inner">
+			<div class="item active">
+			  <img src="img/01.jpg">
+			  <div class="carousel-caption">
+				소셜 댓글
 			  </div>
-
-			  
-			  <a class="left carousel-control" href="#tour" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			  </a>
-			  <a class="right carousel-control" href="#tour" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			  </a>
-			</div> <!-- #tour -->
-		  </div> <!-- /.col-md-12 -->
-		</div> <!-- /.row -->
-	  </div> <!-- /.container -->
-	</div> <!-- /.container-alternate -->
-
-
-	<div class="container">
-		<h3 id="about" class="subhead">About me</h3>
-		<div class="row about">
-		  <div class="col-md-1 col-md-offset-4 text-center">
-			<img src="img/profile.jpg" alt="" class="img-circle">
-		  </div> <!-- /.col-md-10 -->
-		  <div class="col-md-1 col-md-offset-1 text-center">
-			<dl>
-				<dt>Name</dt>
-				<dd>신승엽</dd>
-				<dt>Email</dt>
-				<dd><a href="mailto:flysky@flysky.kr">flysky@flysky.kr</a></dd>
-				<dt>Facebook</dt>
-				<dd><a href="https://www.facebook.com/flysky.kr">https://www.facebook.com/flysky.kr</a></dd>
-			</dl>
+			</div>
+			<div class="item">
+			  <img src="img/02.jpg">
+			  <div class="carousel-caption">
+				소셜 로그인
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/03.jpg">
+			  <div class="carousel-caption">
+				소셜 통합
+			  </div>
+			</div>
 		  </div>
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
 
-	<footer>
-	  <div class="container clearfix">
-		
-		<p class="pull-right">
-		  a template from <a href="http://coverstrap.com">Coverstrap</a>
-		</p>
-	  </div> <!-- /.container -->
-	</footer>
+		  
+		  <a class="left carousel-control" href="#tour" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#tour" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+		</div> <!-- #tour -->
+	  </div> <!-- /.col-md-12 -->
+	</div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /.container-alternate -->
 
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script>
-	  $(".nav-link").click(function(e) {
-		e.preventDefault();
-		var link = $(this);
-		var href = link.attr("href");
-		$("html,body").animate({scrollTop: $(href).offset().top - 80}, 500);
-		link.closest(".navbar").find(".navbar-toggle:not(.collapsed)").click();
-	  });
-	</script>
-  </body>
-</html>
+
+<div class="container">
+	<h3 id="about" class="subhead">About me</h3>
+	<div class="row about">
+	  <div class="col-md-1 col-md-offset-4 text-center">
+		<img src="img/profile.jpg" alt="" class="img-circle">
+	  </div> <!-- /.col-md-10 -->
+	  <div class="col-md-1 col-md-offset-1 text-center">
+		<dl>
+			<dt>Name</dt>
+			<dd>신승엽</dd>
+			<dt>Email</dt>
+			<dd><a href="mailto:flysky@flysky.kr">flysky@flysky.kr</a></dd>
+			<dt>Facebook</dt>
+			<dd><a href="https://www.facebook.com/flysky.kr">https://www.facebook.com/flysky.kr</a></dd>
+		</dl>
+	  </div>
+	</div> <!-- /.row -->
+</div> <!-- /.container -->

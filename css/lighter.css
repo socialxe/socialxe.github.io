@@ -36,6 +36,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .navbar ul.nav li button {
   margin: 0.7em 0 0 1em;
 }
+#container {
+	padding-top: 4.2em;
+}
 .jumbotron {
   background: #f0f0f0;
   color: #333;
@@ -156,6 +159,17 @@ footer {
   background: #111;
   color: #fff;
   padding: 1.5em 0 0.8em;
+}
+.document .sidebar {
+	padding: 40px 0 20px;
+}
+.document .sidebar .nav {
+	padding-left: 20px;
+	font-size: 95%;
+}
+.document .content {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .navbar ul.nav li {

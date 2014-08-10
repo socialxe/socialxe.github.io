@@ -1,0 +1,12 @@
+{% include header.html %}
+<div id="container" class="container document">
+	<div class="row">
+		<div class="col-md-4 sidebar">
+			{% include document_toc.html %}
+		</div>
+		<div class="col-md-8 content">
+			{{ content }}
+		</div>
+	</div>
+</div>
+{% include footer.html %}
