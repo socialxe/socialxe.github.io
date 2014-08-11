@@ -3,7 +3,7 @@ layout: document
 title: Document - SocialXE
 permalink: /document/
 redirect_from:
- - "/manual"
+ - "/manual/"
 ---
 
 # Document
