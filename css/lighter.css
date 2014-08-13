@@ -177,6 +177,14 @@ footer {
 	clear:both;
 	content:"";
 }
+.document .content .image {
+	width: 100%;
+	text-align: center;
+}
+.document .content .image caption {
+	font-weight: bold;
+	font-size: 90%;
+}
 .document .content img {
 	display: inline-block;
 	height: auto;

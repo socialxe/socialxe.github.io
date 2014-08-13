@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Client Token 발급 받기 - 설정 - SocialXE
+title: Client Token 발급 받기 - Document - SocialXE
 permalink: /document/설정/Client-Token-발급-받기/
 redirect_from:
  - manual/2822/

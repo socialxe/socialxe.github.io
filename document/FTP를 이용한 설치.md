@@ -1,6 +1,6 @@
 ---
 layout: document
-title: FTP를 이용한 설치 - 설치 - SocialXE
+title: FTP를 이용한 설치 - Document - SocialXE
 permalink: /document/설치/FTP를-이용한-설치/
 redirect_from:
  - manual/2758/

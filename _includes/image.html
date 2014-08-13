@@ -1,0 +1,6 @@
+<table class="image">
+	<caption align="bottom">{{ include.description }}</caption>
+	<tr>
+		<td><img src="{% if include.baseurl %}{{ site.baseurl }}{% endif %}{{ include.url }}" alt="{{ include.description }}"/></td>
+	</tr>
+</table>

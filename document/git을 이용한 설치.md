@@ -1,6 +1,6 @@
 ---
 layout: document
-title: git을 이용한 설치 - 설치 - SocialXE
+title: git을 이용한 설치 - Document - SocialXE
 permalink: /document/설치/git을-이용한-설치/
 redirect_from:
  - manual/2763/
